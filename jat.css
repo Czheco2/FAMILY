@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #3E8E41;
+}
+#texto {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#ColorN,
+#alerta {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#ElementoDiv {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.cambio-texto {
+  color: #FFA500;
+}
+.cambio-color {
+  background-color: #FFA500;
+}
+.oculto {
+  display: none;
+}
